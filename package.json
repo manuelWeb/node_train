@@ -1,7 +1,4 @@
 {
-  "devDependencies": {
-    "watch": "latest"
-  },
   "scripts": {
     "app": "node ./app.js",
     "build": "npm run app",
