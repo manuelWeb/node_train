@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "watch": "latest"
+  },
+  "scripts": {
+    "app": "node ./app.js",
+    "build": "npm run app",
+    "build:watch": "onchange './*.js' -- npm run build"
+  },
+  "dependencies": {
+    "onchange": "^5.2.0"
+  }
+}
